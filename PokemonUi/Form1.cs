@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace PokemonUi
 {
-    public partial class Form1 : Form
+    public partial class PokemonUi : Form
     {
         private Pokemon p149 = new Pokemon
         {
@@ -46,7 +46,7 @@ namespace PokemonUi
             Candy = { { "Candy", 100 }, { "DRATINI CANDY", 100 } }
         };
 
-        public Form1()
+        public PokemonUi()
         {
             InitializeComponent();
             UpdateCtrl();
@@ -81,7 +81,7 @@ namespace PokemonUi
                 , EvolveCandy: lblEvCandy
                 , imgPhoto: imgPhoto
                 , Evolve: btnEvolve, Type: lblTypeValue);
-            player.SetPlayerInfo(lblStardustValue, lblCandyValue, p149.Candy);
+            player.SetPlayerInfo(PowerUp: btnPowerUp, Stardust: lblStardustValue, Candy: lblCandyValue, CandyCate: p149.Candy, StardustRequire: p149.PowerUpStardust);
         }
     }
 
@@ -171,12 +171,14 @@ namespace PokemonUi
         public int Stardust;
         public Dictionary<string, int> Candy = new Dictionary<string, int> { };
 
-        public void SetPlayerInfo(Label Stardust, Label Candy, string CandyCate, Label PlayerName = null)
+        public void SetPlayerInfo(Button PowerUp, Label Stardust, Label Candy, string CandyCate, int StardustRequire, Label PlayerName = null)
         {
             if (PlayerName != null)
                 PlayerName.Text = this.PlayerName;
             Stardust.Text = this.Stardust.ToString();
             Candy.Text = this.Candy[CandyCate].ToString();
+
+            PowerUp.Enabled = StardustRequire > this.Stardust ? false : true;
         }
     }
 }

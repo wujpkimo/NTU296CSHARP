@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PokemonUi
+namespace BMICalculate
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace PokemonUi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PokemonUi());
+            Application.Run(new BMI計算機());
         }
     }
 }

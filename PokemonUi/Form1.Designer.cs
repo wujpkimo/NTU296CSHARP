@@ -1,6 +1,6 @@
 ﻿namespace PokemonUi
 {
-    partial class Form1
+    partial class PokemonUi
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -105,9 +105,9 @@
             this.lblWeightValue.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblWeightValue.Location = new System.Drawing.Point(124, 308);
             this.lblWeightValue.Name = "lblWeightValue";
-            this.lblWeightValue.Size = new System.Drawing.Size(46, 16);
+            this.lblWeightValue.Size = new System.Drawing.Size(90, 16);
             this.lblWeightValue.TabIndex = 5;
-            this.lblWeightValue.Text = "label4";
+            this.lblWeightValue.Text = "WeightValue";
             // 
             // lblHeightValue
             // 
@@ -115,9 +115,9 @@
             this.lblHeightValue.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblHeightValue.Location = new System.Drawing.Point(229, 308);
             this.lblHeightValue.Name = "lblHeightValue";
-            this.lblHeightValue.Size = new System.Drawing.Size(46, 16);
+            this.lblHeightValue.Size = new System.Drawing.Size(87, 16);
             this.lblHeightValue.TabIndex = 6;
-            this.lblHeightValue.Text = "label5";
+            this.lblHeightValue.Text = "HeightValue";
             // 
             // lblType
             // 
@@ -187,27 +187,27 @@
             this.lblPwStardust.AutoSize = true;
             this.lblPwStardust.Location = new System.Drawing.Point(119, 398);
             this.lblPwStardust.Name = "lblPwStardust";
-            this.lblPwStardust.Size = new System.Drawing.Size(33, 12);
+            this.lblPwStardust.Size = new System.Drawing.Size(56, 12);
             this.lblPwStardust.TabIndex = 7;
-            this.lblPwStardust.Text = "label9";
+            this.lblPwStardust.Text = "PwStardust";
             // 
             // lblPwCandy
             // 
             this.lblPwCandy.AutoSize = true;
             this.lblPwCandy.Location = new System.Drawing.Point(206, 398);
             this.lblPwCandy.Name = "lblPwCandy";
-            this.lblPwCandy.Size = new System.Drawing.Size(33, 12);
+            this.lblPwCandy.Size = new System.Drawing.Size(50, 12);
             this.lblPwCandy.TabIndex = 7;
-            this.lblPwCandy.Text = "label9";
+            this.lblPwCandy.Text = "PwCandy";
             // 
             // lblEvCandy
             // 
             this.lblEvCandy.AutoSize = true;
             this.lblEvCandy.Location = new System.Drawing.Point(206, 425);
             this.lblEvCandy.Name = "lblEvCandy";
-            this.lblEvCandy.Size = new System.Drawing.Size(33, 12);
+            this.lblEvCandy.Size = new System.Drawing.Size(49, 12);
             this.lblEvCandy.TabIndex = 7;
-            this.lblEvCandy.Text = "label9";
+            this.lblEvCandy.Text = "EvCandy";
             // 
             // imgPhoto
             // 
@@ -238,7 +238,7 @@
             this.lblCPvalue.TabIndex = 10;
             this.lblCPvalue.Text = "****";
             // 
-            // Form1
+            // PokemonUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -263,8 +263,8 @@
             this.Controls.Add(this.lblNameCht);
             this.Controls.Add(this.btnEvolve);
             this.Controls.Add(this.btnPowerUp);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "PokemonUi";
+            this.Text = "Pokemon";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgPhoto)).EndInit();
             this.ResumeLayout(false);
