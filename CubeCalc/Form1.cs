@@ -1,22 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace _0504Example03
+namespace CubeCalc
 {
-    internal class Program
+    public partial class Form1 : Form
     {
-        private static void Main(string[] args)
+        public Form1()
         {
-            int gap = 10;
-            int cubeLen = 100;
+            InitializeComponent();
+        }
+
+        public void CubeCalc(int Gap, int CubeLen, int WinHeight, int WinWidth)
+        {
+            int gap = Gap;
+            int cubeLen = CubeLen;
             int currentHeight = 0;
             int currentWidth = 0;
 
-            int winHeight = 600;
-            int winWidth = 800;
+            int winHeight = WinHeight;
+            int winWidth = WinWidth;
 
             int i = 0;
             int j = 0;
