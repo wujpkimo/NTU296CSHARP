@@ -79,8 +79,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\149.png" />
+    <Content Include="images\Dragonair-Pokemon-Go.png" />
+    <Content Include="images\dratini-pokemon-go.png" />
+    <Content Include="images\Dratini_candy.png" />
+    <Content Include="images\EeveeCandy.jpg" />
     <Content Include="images\pokemon_PNG148.png" />
     <Content Include="images\pokemon_PNG149.png" />
+    <Content Include="images\Stardust_Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
