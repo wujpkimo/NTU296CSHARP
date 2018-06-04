@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studio", "Studio\Studio.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication(Console)", "TestApplication(Console)\TestApplication(Console).csproj", "{677ACF1F-6476-4DCC-8471-761661F89542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGuessNo", "TestGuessNo\TestGuessNo.csproj", "{AB3A896E-BCED-482C-84A2-6EE03DEA6504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessGame", "GuessGame\GuessGame.csproj", "{FAED89EE-D7A3-4775-A30D-702FD8CF85FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{677ACF1F-6476-4DCC-8471-761661F89542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{677ACF1F-6476-4DCC-8471-761661F89542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{677ACF1F-6476-4DCC-8471-761661F89542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3A896E-BCED-482C-84A2-6EE03DEA6504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3A896E-BCED-482C-84A2-6EE03DEA6504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3A896E-BCED-482C-84A2-6EE03DEA6504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3A896E-BCED-482C-84A2-6EE03DEA6504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAED89EE-D7A3-4775-A30D-702FD8CF85FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAED89EE-D7A3-4775-A30D-702FD8CF85FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAED89EE-D7A3-4775-A30D-702FD8CF85FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAED89EE-D7A3-4775-A30D-702FD8CF85FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
